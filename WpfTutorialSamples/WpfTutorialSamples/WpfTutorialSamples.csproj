@@ -54,6 +54,57 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Basic_controls\CheckBoxSample.xaml.cs">
+      <DependentUpon>CheckBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\CheckBoxThreeStateSample.xaml.cs">
+      <DependentUpon>CheckBoxThreeStateSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\LabelControlAdvancedSample.xaml.cs">
+      <DependentUpon>LabelControlAdvancedSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\LabelControlSample.xaml.cs">
+      <DependentUpon>LabelControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\PasswordBoxSample.xaml.cs">
+      <DependentUpon>PasswordBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\RadioButtonCustomContentSample.xaml.cs">
+      <DependentUpon>RadioButtonCustomContentSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\RadioButtonSample.xaml.cs">
+      <DependentUpon>RadioButtonSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\TextBlockCodeBehindSample.xaml.cs">
+      <DependentUpon>TextBlockCodeBehindSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\TextBlockHyperlinkSample.xaml.cs">
+      <DependentUpon>TextBlockHyperlinkSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\TextBlockInlineSample.xaml.cs">
+      <DependentUpon>TextBlockInlineSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\TextBlockSample.xaml.cs">
+      <DependentUpon>TextBlockSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\TextBlockSpanSample.xaml.cs">
+      <DependentUpon>TextBlockSpanSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\TextBoxSample.xaml.cs">
+      <DependentUpon>TextBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\TextBoxSelectionSample.xaml.cs">
+      <DependentUpon>TextBoxSelectionSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\ToolTipsAdvancedSample.xaml.cs">
+      <DependentUpon>ToolTipsAdvancedSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_controls\ToolTipsSimpleSample.xaml.cs">
+      <DependentUpon>ToolTipsSimpleSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPF_Application\ExceptionHandlingSample.xaml.cs">
+      <DependentUpon>ExceptionHandlingSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WPF_Application\ExtendedResourceSample.xaml.cs">
       <DependentUpon>ExtendedResourceSample.xaml</DependentUpon>
     </Compile>
@@ -63,6 +114,70 @@
     <Compile Include="WPF_Application\ResourcesFromCodeBehindSample.xaml.cs">
       <DependentUpon>ResourcesFromCodeBehindSample.xaml</DependentUpon>
     </Compile>
+    <Page Include="Basic_controls\CheckBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\CheckBoxThreeStateSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\LabelControlAdvancedSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\LabelControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\PasswordBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\RadioButtonCustomContentSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\RadioButtonSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\TextBlockCodeBehindSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\TextBlockHyperlinkSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\TextBlockInlineSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\TextBlockSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\TextBlockSpanSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\TextBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\TextBoxSelectionSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\ToolTipsAdvancedSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Basic_controls\ToolTipsSimpleSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -75,6 +190,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="WPF_Application\ExceptionHandlingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WPF_Application\ExtendedResourceSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -114,6 +233,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\accept.png" />
+    <Resource Include="Images\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\folder.png" />
+    <Resource Include="Images\page_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\help.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
