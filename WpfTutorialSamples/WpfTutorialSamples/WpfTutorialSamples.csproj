@@ -102,6 +102,60 @@
     <Compile Include="Basic_controls\ToolTipsSimpleSample.xaml.cs">
       <DependentUpon>ToolTipsSimpleSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Control_concepts\TextFormattingModeSample.xaml.cs">
+      <DependentUpon>TextFormattingModeSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataBinding\ChangeNotificationSample.xaml.cs">
+      <DependentUpon>ChangeNotificationSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataBinding\DataContextSample.xaml.cs">
+      <DependentUpon>DataContextSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataBinding\HelloBoundWorldSample.xaml.cs">
+      <DependentUpon>HelloBoundWorldSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Canvas.xaml.cs">
+      <DependentUpon>Canvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\CanvasZIndex.xaml.cs">
+      <DependentUpon>CanvasZIndex.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\DockPanel.xaml.cs">
+      <DependentUpon>DockPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Grid.xaml.cs">
+      <DependentUpon>Grid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\GridColRowSpan.xaml.cs">
+      <DependentUpon>GridColRowSpan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\GridColRowSpanAdvanced.xaml.cs">
+      <DependentUpon>GridColRowSpanAdvanced.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\GridContactForm.xaml.cs">
+      <DependentUpon>GridContactForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\GridContactFormTake2.xaml.cs">
+      <DependentUpon>GridContactFormTake2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\GridSplitterHorizontalSample.xaml.cs">
+      <DependentUpon>GridSplitterHorizontalSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\GridSplitterSample.xaml.cs">
+      <DependentUpon>GridSplitterSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\GridUnits.xaml.cs">
+      <DependentUpon>GridUnits.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\StackPanel.xaml.cs">
+      <DependentUpon>StackPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\TabularGrid.xaml.cs">
+      <DependentUpon>TabularGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\WrapPanel.xaml.cs">
+      <DependentUpon>WrapPanel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WPF_Application\ExceptionHandlingSample.xaml.cs">
       <DependentUpon>ExceptionHandlingSample.xaml</DependentUpon>
     </Compile>
@@ -178,6 +232,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Control_concepts\TextFormattingModeSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataBinding\ChangeNotificationSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataBinding\DataContextSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataBinding\HelloBoundWorldSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -190,6 +260,62 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Panels\Canvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\CanvasZIndex.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\DockPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\Grid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\GridColRowSpan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\GridColRowSpanAdvanced.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\GridContactForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\GridContactFormTake2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\GridSplitterHorizontalSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\GridSplitterSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\GridUnits.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\StackPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\TabularGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\WrapPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WPF_Application\ExceptionHandlingSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
