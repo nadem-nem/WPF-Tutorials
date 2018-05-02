@@ -102,17 +102,92 @@
     <Compile Include="Basic_controls\ToolTipsSimpleSample.xaml.cs">
       <DependentUpon>ToolTipsSimpleSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Commands\CommandCanExecuteSample.xaml.cs">
+      <DependentUpon>CommandCanExecuteSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\CommandsWithCommandTargetSample.xaml.cs">
+      <DependentUpon>CommandsWithCommandTargetSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\CustomCommandSample.xaml.cs">
+      <DependentUpon>CustomCommandSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\UsingCommandsSample.xaml.cs">
+      <DependentUpon>UsingCommandsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common_interface_controls\ContextMenuManuallyInvokedSample.xaml.cs">
+      <DependentUpon>ContextMenuManuallyInvokedSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common_interface_controls\ContextMenuSample.xaml.cs">
+      <DependentUpon>ContextMenuSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common_interface_controls\ContextMenuWithCommandsSample.xaml.cs">
+      <DependentUpon>ContextMenuWithCommandsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common_interface_controls\MenuIconCheckableSample.xaml.cs">
+      <DependentUpon>MenuIconCheckableSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common_interface_controls\MenuSample.xaml.cs">
+      <DependentUpon>MenuSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common_interface_controls\MenuWithCommandsSample.xaml.cs">
+      <DependentUpon>MenuWithCommandsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common_interface_controls\StatusBarAdvancedSample.xaml.cs">
+      <DependentUpon>StatusBarAdvancedSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common_interface_controls\StatusBarSample.xaml.cs">
+      <DependentUpon>StatusBarSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common_interface_controls\ToolbarIconSample.xaml.cs">
+      <DependentUpon>ToolbarIconSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common_interface_controls\ToolbarPositionSample.xaml.cs">
+      <DependentUpon>ToolbarPositionSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common_interface_controls\ToolbarSample.xaml.cs">
+      <DependentUpon>ToolbarSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Control_concepts\TextFormattingModeSample.xaml.cs">
       <DependentUpon>TextFormattingModeSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="DataBinding\ChangeNotificationSample.xaml.cs">
       <DependentUpon>ChangeNotificationSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DataBinding\ConverterSample.xaml.cs">
+      <DependentUpon>ConverterSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataBinding\DataBindingDebuggingSample.xaml.cs">
+      <DependentUpon>DataBindingDebuggingSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DataBinding\DataContextSample.xaml.cs">
       <DependentUpon>DataContextSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="DataBinding\HelloBoundWorldSample.xaml.cs">
       <DependentUpon>HelloBoundWorldSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataBinding\StringFormatCultureSample.xaml.cs">
+      <DependentUpon>StringFormatCultureSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataBinding\StringFormatSample.xaml.cs">
+      <DependentUpon>StringFormatSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\InputDialogAppSample.xaml.cs">
+      <DependentUpon>InputDialogAppSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\InputDialogSample.xaml.cs">
+      <DependentUpon>InputDialogSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\MessageBoxSample.xaml.cs">
+      <DependentUpon>MessageBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\OpenFileDialogMultipleFilesSample.xaml.cs">
+      <DependentUpon>OpenFileDialogMultipleFilesSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\OpenFileDialogSample.xaml.cs">
+      <DependentUpon>OpenFileDialogSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SaveFileDialogSample.xaml.cs">
+      <DependentUpon>SaveFileDialogSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="Panels\Canvas.xaml.cs">
       <DependentUpon>Canvas.xaml</DependentUpon>
@@ -155,6 +230,48 @@
     </Compile>
     <Compile Include="Panels\WrapPanel.xaml.cs">
       <DependentUpon>WrapPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\BlockUIContainerSample.xaml.cs">
+      <DependentUpon>BlockUIContainerSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\CodeBehindFlowDocumentSample.xaml.cs">
+      <DependentUpon>CodeBehindFlowDocumentSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\ExtendedFlowDocumentSample.xaml.cs">
+      <DependentUpon>ExtendedFlowDocumentSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\FlowDocumentPageViewerSample.xaml.cs">
+      <DependentUpon>FlowDocumentPageViewerSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\FlowDocumentReaderSample.xaml.cs">
+      <DependentUpon>FlowDocumentReaderSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\FlowDocumentScrollViewerSample.xaml.cs">
+      <DependentUpon>FlowDocumentScrollViewerSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\FlowDocumentScrollViewerZoomSample.xaml.cs">
+      <DependentUpon>FlowDocumentScrollViewerZoomSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\FlowDocumentSearchSample.xaml.cs">
+      <DependentUpon>FlowDocumentSearchSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\FlowDocumentTextAlignmentSample.xaml.cs">
+      <DependentUpon>FlowDocumentTextAlignmentSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\RichTextBoxParagraphSpacingSample.xaml.cs">
+      <DependentUpon>RichTextBoxParagraphSpacingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\RichTextBoxSample.xaml.cs">
+      <DependentUpon>RichTextBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\RichTextBoxTextSelectionSample.xaml.cs">
+      <DependentUpon>RichTextBoxTextSelectionSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rich_text_controls\RichTextEditorSample.xaml.cs">
+      <DependentUpon>RichTextEditorSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolbarCustomControlsSample.xaml.cs">
+      <DependentUpon>ToolbarCustomControlsSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="WPF_Application\ExceptionHandlingSample.xaml.cs">
       <DependentUpon>ExceptionHandlingSample.xaml</DependentUpon>
@@ -232,6 +349,66 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Commands\CommandCanExecuteSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Commands\CommandsWithCommandTargetSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Commands\CustomCommandSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Commands\UsingCommandsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common_interface_controls\ContextMenuManuallyInvokedSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common_interface_controls\ContextMenuSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common_interface_controls\ContextMenuWithCommandsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common_interface_controls\MenuIconCheckableSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common_interface_controls\MenuSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common_interface_controls\MenuWithCommandsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common_interface_controls\StatusBarAdvancedSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common_interface_controls\StatusBarSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common_interface_controls\ToolbarIconSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common_interface_controls\ToolbarPositionSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common_interface_controls\ToolbarSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Control_concepts\TextFormattingModeSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -240,11 +417,51 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DataBinding\ConverterSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataBinding\DataBindingDebuggingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DataBinding\DataContextSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DataBinding\HelloBoundWorldSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataBinding\StringFormatCultureSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataBinding\StringFormatSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\InputDialogAppSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\InputDialogSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\MessageBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\OpenFileDialogMultipleFilesSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\OpenFileDialogSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\SaveFileDialogSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -316,6 +533,62 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Rich_text_controls\BlockUIContainerSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\CodeBehindFlowDocumentSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\ExtendedFlowDocumentSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\FlowDocumentPageViewerSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\FlowDocumentReaderSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\FlowDocumentScrollViewerSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\FlowDocumentScrollViewerZoomSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\FlowDocumentSearchSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\FlowDocumentTextAlignmentSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\RichTextBoxParagraphSpacingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\RichTextBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\RichTextBoxTextSelectionSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rich_text_controls\RichTextEditorSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ToolbarCustomControlsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WPF_Application\ExceptionHandlingSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -372,6 +645,20 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\copy.png" />
+    <Resource Include="Images\cut.png" />
+    <Resource Include="Images\paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\disk.png" />
+    <Resource Include="Images\text_bold.png" />
+    <Resource Include="Images\text_italic.png" />
+    <Resource Include="Images\text_underline.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
