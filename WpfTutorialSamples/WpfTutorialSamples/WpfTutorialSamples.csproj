@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -48,6 +49,7 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -101,6 +103,21 @@
     </Compile>
     <Compile Include="Basic_controls\ToolTipsSimpleSample.xaml.cs">
       <DependentUpon>ToolTipsSimpleSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBox_control\ComboBoxCustomContentSample.xaml.cs">
+      <DependentUpon>ComboBoxCustomContentSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBox_control\ComboBoxDataBindingSample.xaml.cs">
+      <DependentUpon>ComboBoxDataBindingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBox_control\ComboBoxEditableSample.xaml.cs">
+      <DependentUpon>ComboBoxEditableSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBox_control\ComboBoxSample.xaml.cs">
+      <DependentUpon>ComboBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBox_control\ComboBoxSelectionSample.xaml.cs">
+      <DependentUpon>ComboBoxSelectionSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="Commands\CommandCanExecuteSample.xaml.cs">
       <DependentUpon>CommandCanExecuteSample.xaml</DependentUpon>
@@ -188,6 +205,78 @@
     </Compile>
     <Compile Include="Dialogs\SaveFileDialogSample.xaml.cs">
       <DependentUpon>SaveFileDialogSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsControl\ItemsControlDataBindingSample.xaml.cs">
+      <DependentUpon>ItemsControlDataBindingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsControl\ItemsControlPanelSample.xaml.cs">
+      <DependentUpon>ItemsControlPanelSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsControl\ItemsControlSample.xaml.cs">
+      <DependentUpon>ItemsControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListBox_control\ListBoxDataBindingSample.xaml.cs">
+      <DependentUpon>ListBoxDataBindingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListBox_control\ListBoxSample.xaml.cs">
+      <DependentUpon>ListBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListBox_control\ListBoxSelectionSample.xaml.cs">
+      <DependentUpon>ListBoxSelectionSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\BorderSample.xaml.cs">
+      <DependentUpon>BorderSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\ControllingTheTabControlSample.xaml.cs">
+      <DependentUpon>ControllingTheTabControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\ProgressBarIndeterminateSample.xaml.cs">
+      <DependentUpon>ProgressBarIndeterminateSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\ProgressBarSample.xaml.cs">
+      <DependentUpon>ProgressBarSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\ProgressBarTaskOnUiThread.xaml.cs">
+      <DependentUpon>ProgressBarTaskOnUiThread.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\ProgressBarTaskOnWorkerThread.xaml.cs">
+      <DependentUpon>ProgressBarTaskOnWorkerThread.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\ProgressBarTextSample.xaml.cs">
+      <DependentUpon>ProgressBarTextSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\SliderBoundValueSample.xaml.cs">
+      <DependentUpon>SliderBoundValueSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\SliderSample.xaml.cs">
+      <DependentUpon>SliderSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\SliderSnapToTickSample.xaml.cs">
+      <DependentUpon>SliderSnapToTickSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\SliderValueChangedSample.xaml.cs">
+      <DependentUpon>SliderValueChangedSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\StyledTabItemsSample.xaml.cs">
+      <DependentUpon>StyledTabItemsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\StyledTabItemsWithBorderSample.xaml.cs">
+      <DependentUpon>StyledTabItemsWithBorderSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\TabControlSample.xaml.cs">
+      <DependentUpon>TabControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\TabControlWithCustomHeadersSample.xaml.cs">
+      <DependentUpon>TabControlWithCustomHeadersSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\TabStripPlacementSample.xaml.cs">
+      <DependentUpon>TabStripPlacementSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\WebBrowserControlSample.xaml.cs">
+      <DependentUpon>WebBrowserControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc_controls\WindowsFormsHostSample.xaml.cs">
+      <DependentUpon>WindowsFormsHostSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="Panels\Canvas.xaml.cs">
       <DependentUpon>Canvas.xaml</DependentUpon>
@@ -349,6 +438,26 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ComboBox_control\ComboBoxCustomContentSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ComboBox_control\ComboBoxDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ComboBox_control\ComboBoxEditableSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ComboBox_control\ComboBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ComboBox_control\ComboBoxSelectionSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Commands\CommandCanExecuteSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -465,6 +574,30 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ItemsControl\ItemsControlDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ItemsControl\ItemsControlPanelSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ItemsControl\ItemsControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListBox_control\ListBoxDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListBox_control\ListBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListBox_control\ListBoxSelectionSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -477,6 +610,78 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Misc_controls\BorderSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\ControllingTheTabControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\ProgressBarIndeterminateSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\ProgressBarSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\ProgressBarTaskOnUiThread.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\ProgressBarTaskOnWorkerThread.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\ProgressBarTextSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\SliderBoundValueSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\SliderSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\SliderSnapToTickSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\SliderValueChangedSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\StyledTabItemsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\StyledTabItemsWithBorderSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\TabControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\TabControlWithCustomHeadersSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\TabStripPlacementSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\WebBrowserControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc_controls\WindowsFormsHostSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Panels\Canvas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -660,5 +865,16 @@
     <Resource Include="Images\text_italic.png" />
     <Resource Include="Images\text_underline.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrow_left.png" />
+    <Resource Include="Images\arrow_right.png" />
+    <Resource Include="Images\world_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bullet_blue.png" />
+    <Resource Include="Images\bullet_green.png" />
+    <Resource Include="Images\bullet_red.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

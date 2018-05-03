@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:WpfTutorialSamples"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              DispatcherUnhandledException="Application_DispatcherUnhandledException"
-             StartupUri="Rich_text_controls/RichTextEditorSample.xaml">
+             StartupUri="ComboBox_control/ComboBoxSelectionSample.xaml">
     <Application.Resources>
         <Style TargetType="FlowDocument">
             <Setter Property="IsOptimalParagraphEnabled" Value="True" />
