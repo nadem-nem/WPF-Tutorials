@@ -4,8 +4,12 @@
              xmlns:local="clr-namespace:WpfTutorialSamples"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              DispatcherUnhandledException="Application_DispatcherUnhandledException"
-             StartupUri="ComboBox_control/ComboBoxSelectionSample.xaml">
+             StartupUri="Audio_and_Video/SpeechRecognitionCommandsSample.xaml">
     <Application.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Gray" />
+            <Setter Property="FontSize" Value="24" />
+        </Style>
         <Style TargetType="FlowDocument">
             <Setter Property="IsOptimalParagraphEnabled" Value="True" />
             <Setter Property="IsHyphenationEnabled" Value="True" />

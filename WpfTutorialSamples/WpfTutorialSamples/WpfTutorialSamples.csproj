@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,6 +57,39 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Audio_and_Video\AudioVideoPlayerCompleteSample.xaml.cs">
+      <DependentUpon>AudioVideoPlayerCompleteSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\MediaPlayerAudioControlSample.xaml.cs">
+      <DependentUpon>MediaPlayerAudioControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\MediaPlayerAudioSample.xaml.cs">
+      <DependentUpon>MediaPlayerAudioSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\MediaPlayerVideoControlSample.xaml.cs">
+      <DependentUpon>MediaPlayerVideoControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\MediaPlayerVideoSample.xaml.cs">
+      <DependentUpon>MediaPlayerVideoSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\MediaPlayerVideoSizeSample.xaml.cs">
+      <DependentUpon>MediaPlayerVideoSizeSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\SpeechRecognitionCommandsSample.xaml.cs">
+      <DependentUpon>SpeechRecognitionCommandsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\SpeechRecognitionTextCommandsSample.xaml.cs">
+      <DependentUpon>SpeechRecognitionTextCommandsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\SpeechRecognitionTextSample.xaml.cs">
+      <DependentUpon>SpeechRecognitionTextSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\SpeechSynthesisPromptBuilderSample.xaml.cs">
+      <DependentUpon>SpeechSynthesisPromptBuilderSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\SpeechSynthesisSample.xaml.cs">
+      <DependentUpon>SpeechSynthesisSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Basic_controls\CheckBoxSample.xaml.cs">
       <DependentUpon>CheckBoxSample.xaml</DependentUpon>
     </Compile>
@@ -188,6 +222,15 @@
     <Compile Include="DataBinding\StringFormatSample.xaml.cs">
       <DependentUpon>StringFormatSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DataGrid_control\DataGridColumnsSample.xaml.cs">
+      <DependentUpon>DataGridColumnsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataGrid_control\DataGridDetailsSample.xaml.cs">
+      <DependentUpon>DataGridDetailsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataGrid_control\SimpleDataGridSample.xaml.cs">
+      <DependentUpon>SimpleDataGridSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Dialogs\InputDialogAppSample.xaml.cs">
       <DependentUpon>InputDialogAppSample.xaml</DependentUpon>
     </Compile>
@@ -223,6 +266,45 @@
     </Compile>
     <Compile Include="ListBox_control\ListBoxSelectionSample.xaml.cs">
       <DependentUpon>ListBoxSelectionSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\FilteringSample.xaml.cs">
+      <DependentUpon>FilteringSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewBasicSample.xaml.cs">
+      <DependentUpon>ListViewBasicSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewCollapseExpandGroupSample.xaml.cs">
+      <DependentUpon>ListViewCollapseExpandGroupSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewColumnSortingSample.xaml.cs">
+      <DependentUpon>ListViewColumnSortingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewDataBindingSample.xaml.cs">
+      <DependentUpon>ListViewDataBindingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewGridViewCellTemplateSample.xaml.cs">
+      <DependentUpon>ListViewGridViewCellTemplateSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewGridViewSample.xaml.cs">
+      <DependentUpon>ListViewGridViewSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewGroupSample.xaml.cs">
+      <DependentUpon>ListViewGroupSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewItemTemplateSample.xaml.cs">
+      <DependentUpon>ListViewItemTemplateSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewSortingSample.xaml.cs">
+      <DependentUpon>ListViewSortingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\BackgroundWorkerCancellationSample.xaml.cs">
+      <DependentUpon>BackgroundWorkerCancellationSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\BackgroundWorkerSample.xaml.cs">
+      <DependentUpon>BackgroundWorkerSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\DispatcherTimerSample.xaml.cs">
+      <DependentUpon>DispatcherTimerSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="Misc_controls\BorderSample.xaml.cs">
       <DependentUpon>BorderSample.xaml</DependentUpon>
@@ -359,8 +441,53 @@
     <Compile Include="Rich_text_controls\RichTextEditorSample.xaml.cs">
       <DependentUpon>RichTextEditorSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Styles\ControlSpecificStyleSample.xaml.cs">
+      <DependentUpon>ControlSpecificStyleSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\ExplicitStyleSample.xaml.cs">
+      <DependentUpon>ExplicitStyleSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\SimpleStyleSample.xaml.cs">
+      <DependentUpon>SimpleStyleSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\StyleDataTriggerSample.xaml.cs">
+      <DependentUpon>StyleDataTriggerSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\StyleEventTriggerSample.xaml.cs">
+      <DependentUpon>StyleEventTriggerSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\StyleMultiTriggerSample.xaml.cs">
+      <DependentUpon>StyleMultiTriggerSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\StyleTriggerEnterExitActions.xaml.cs">
+      <DependentUpon>StyleTriggerEnterExitActions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\StyleTriggersSample.xaml.cs">
+      <DependentUpon>StyleTriggersSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\WindowWideStyleSample.xaml.cs">
+      <DependentUpon>WindowWideStyleSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ToolbarCustomControlsSample.xaml.cs">
       <DependentUpon>ToolbarCustomControlsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeView_control\LazyLoadingSample.xaml.cs">
+      <DependentUpon>LazyLoadingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeView_control\TreeViewCustomItemsSample.xaml.cs">
+      <DependentUpon>TreeViewCustomItemsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeView_control\TreeViewDataBindingSample.xaml.cs">
+      <DependentUpon>TreeViewDataBindingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeView_control\TreeViewMultipleTemplatesSample.xaml.cs">
+      <DependentUpon>TreeViewMultipleTemplatesSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeView_control\TreeViewSample.xaml.cs">
+      <DependentUpon>TreeViewSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeView_control\TreeViewSelectionExpansionSample.xaml.cs">
+      <DependentUpon>TreeViewSelectionExpansionSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="WPF_Application\ExceptionHandlingSample.xaml.cs">
       <DependentUpon>ExceptionHandlingSample.xaml</DependentUpon>
@@ -374,6 +501,50 @@
     <Compile Include="WPF_Application\ResourcesFromCodeBehindSample.xaml.cs">
       <DependentUpon>ResourcesFromCodeBehindSample.xaml</DependentUpon>
     </Compile>
+    <Page Include="Audio_and_Video\AudioVideoPlayerCompleteSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\MediaPlayerAudioControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\MediaPlayerAudioSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\MediaPlayerVideoControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\MediaPlayerVideoSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\MediaPlayerVideoSizeSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\SpeechRecognitionCommandsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\SpeechRecognitionTextCommandsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\SpeechRecognitionTextSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\SpeechSynthesisPromptBuilderSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\SpeechSynthesisSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Basic_controls\CheckBoxSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -550,6 +721,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DataGrid_control\DataGridColumnsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataGrid_control\DataGridDetailsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataGrid_control\SimpleDataGridSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Dialogs\InputDialogAppSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -598,6 +781,46 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ListView_control\FilteringSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewBasicSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewCollapseExpandGroupSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewColumnSortingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewGridViewCellTemplateSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewGridViewSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewGroupSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewItemTemplateSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewSortingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -610,6 +833,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Misc\BackgroundWorkerCancellationSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc\BackgroundWorkerSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc\DispatcherTimerSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Misc_controls\BorderSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -790,7 +1025,67 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Styles\ControlSpecificStyleSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ExplicitStyleSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\SimpleStyleSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\StyleDataTriggerSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\StyleEventTriggerSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\StyleMultiTriggerSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\StyleTriggerEnterExitActions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\StyleTriggersSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\WindowWideStyleSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ToolbarCustomControlsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeView_control\LazyLoadingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeView_control\TreeViewCustomItemsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeView_control\TreeViewDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeView_control\TreeViewMultipleTemplatesSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeView_control\TreeViewSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeView_control\TreeViewSelectionExpansionSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -875,6 +1170,13 @@
     <Resource Include="Images\bullet_green.png" />
     <Resource Include="Images\bullet_red.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\control_pause_blue.png" />
+    <Resource Include="Images\control_play_blue.png" />
+    <Resource Include="Images\control_stop_blue.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
